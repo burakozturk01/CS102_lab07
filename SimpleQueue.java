@@ -4,7 +4,7 @@
 public class SimpleQueue
 {
     // properties
-    SimpleLinkedList list;
+    private SimpleLinkedList list;
 
     // constructors
     public SimpleQueue()
@@ -29,5 +29,10 @@ public class SimpleQueue
     public boolean isEmpty()
     {
         return list.isEmpty();
+    }
+
+    public String listToString()
+    {
+        return list.toString();
     }
 }
